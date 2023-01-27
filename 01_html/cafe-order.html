@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rudy Cafe Order</title>
+  </head>
+  <body>
+    <h1>Rudy 카페</h1>
+    <div id="orderer-name">
+      <span>주문자 이름을 입력하세요 </span><input type="text" />
+    </div>
+    <br />
+    <hr />
+    <div id="group-order">
+      <h2>단체 주문</h2>
+      <input type="checkbox" name="group-order" value="coffee" /><span
+        >커피</span
+      >
+      <input type="checkbox" name="group-order" value="tea" /><span>차</span>
+      <input type="checkbox" name="group-order" value="latte" /><span
+        >라떼</span
+      >
+      <p>주문 날짜 입력</p>
+      <input type="date" />
+    </div>
+    <br />
+    <hr />
+    <div id="individual-order">
+      <h2>개별 주문</h2>
+      <input type="radio" name="individual-order" value="coffee" /><span
+        >커피</span
+      >
+      <input type="radio" name="individual-order" value="tea" /><span>차</span>
+      <input type="radio" name="individual-order" value="latte" /><span
+        >라떼</span
+      >
+      <p>주문 날짜 및 시간 입력</p>
+      <input type="datetime-local" />
+    </div>
+    <br />
+    <hr />
+  </body>
+</html>
