@@ -1,0 +1,23 @@
+div *:nth-child(2n) {
+  background-color: orange;
+}
+
+div *:nth-child(1) {
+  background-color: purple;
+}
+
+div *:not(.predator) {
+  background-color: green;
+}
+
+div *:last-child {
+  background-color: red;
+}
+
+div *:last-child:hover {
+  background: green;
+}
+
+div *:nth-child(3) {
+  background: blue;
+}
